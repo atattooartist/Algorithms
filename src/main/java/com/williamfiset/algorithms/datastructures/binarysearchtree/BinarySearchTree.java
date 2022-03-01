@@ -165,7 +165,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
     return node;
   }
 
-  // returns true is the element exists in the tree
+  // returns true if the element exists in the tree
   public boolean contains(T elem) {
     return contains(root, elem);
   }
